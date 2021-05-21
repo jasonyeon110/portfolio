@@ -1,4 +1,4 @@
 ### Jason Ji Woong Yeon Portfolio
-# This is my personal website and also serve as portfolio
+# React based personal website, My portfolio
 
 # ttps://jasonyeon110.github.io/portfolio/
