@@ -3,14 +3,12 @@ import React from 'react'
 export default function Nav() {
     return (
         <div>
-            <nav id="nav">
-                <a href="">
-                    Jason/Yeon's portfolio
-                </a>
+            <nav id="mainNavbar" className="navbar navbar-dark bg-dark navbar-expand-md">
+                <a href="#" className="navbar-brand">JASON/YEON</a>
                 <ul>
-                    <li></li>
-                    <li>Profile</li>
+                    <li>Introduction</li>
                     <li>Projects</li>
+                    <li>Contact me</li>
                 </ul>
             </nav>
         </div>
