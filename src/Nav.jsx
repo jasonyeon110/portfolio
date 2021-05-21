@@ -5,7 +5,7 @@ export default function Nav() {
         <div>
             <nav id="nav">
                 <a href="">
-                    Jason/Yeon
+                    Jason/Yeon's portfolio
                 </a>
                 <ul>
                     <li></li>

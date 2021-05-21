@@ -5,11 +5,10 @@ import Stuffs from './Stuffs';
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <h1>Lets play with flexbox</h1>
-      <h2>hello</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa eaque, vel saepe corporis adipisci dolor nostrum, tempora, illum fugiat amet facilis obcaecati eligendi. Voluptate, culpa quo numquam modi consectetur cumque.</p>
-      <Stuffs />
+      {/* <Nav /> */}
+      <h1>Ji Woong Yeon's Portfolio</h1>
+      <h2>hello I am a student at Northeastern University and currently studying Information Systems</h2>
+      {/* <Stuffs /> */}
     </div>
   );
 }
