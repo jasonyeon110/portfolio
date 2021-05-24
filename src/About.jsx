@@ -7,7 +7,7 @@ export default function Intro() {
             <div className="body">
                 <div className="container">
                     <div className="col align-item-center">
-                        <h1 id="introd" className="intro text-uppercase">Introduction</h1>
+                        <h1 id="introd" className="intro text-uppercase">About</h1>
                         <h2>I am currectly studying Master Degree - Information Systems at Northeastern University</h2>
                         <img src={north} alt="" id="north" />
                     </div>
