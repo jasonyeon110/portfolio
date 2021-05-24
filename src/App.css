@@ -42,6 +42,8 @@ table {
 	border-spacing: 0;
 }
 
+/* start here below */
+
 body{
 	background: #d5e8f5;
 	font-family: "Roboto", sans-serif;
@@ -63,4 +65,25 @@ body{
 
 #mainNavbar .nav-link:hover{
 	font-weight: 400;
+}
+
+.navbar-nav{
+	align-items: center;
+}
+
+#introd{
+	font-size: 2rem;
+	text-align: left;
+}
+
+#sec-one{
+	background-color: papayawhip;
+}
+
+#north{
+	width: 5rem;
+	
+	display: flex;
+	position: relative;
+	right: 2rem;
 }

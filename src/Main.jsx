@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import north from './north-logo.png';
 
 export default function Intro() {
     return (
-        <div className="container-fluid px-0">
-            <h1>Ji Woong Yeon's Portfolio</h1>
-            <h2>hello I am a student at Northeastern University and currently studying Information Systems</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dignissimos nostrum cupiditate harum est laborum, aspernatur porro omnis nihil velit soluta iusto molestias. Deserunt dolorem ullam et vero voluptate. Corporis.</p>
-        </div>
+        <section className="container-fluid px-0 py-3" id="sec-one">
+            <div className="body">
+                <div className="container">
+                    <div className="col align-item-center">
+                        <h1 id="introd" className="intro text-uppercase">Introduction</h1>
+                        <h2>I am currectly studying Master Degree - Information Systems at Northeastern University</h2>
+                        <img src={north} alt="" id="north" />
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }
