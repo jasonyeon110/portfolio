@@ -41,17 +41,17 @@ export default function Contact() {
                             <legend className="text-center">Contact</legend>
                             <div className="form-group">
                                 <label htmlFor="name" className="col-md-3 control-label">Name</label>
-                                <input type="text" className="form-control" />
+                                <input type="text" className="form-control" onChange={onNameChange}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="emailInput">Email Address</label>
-                                <input type="email" className="form-control" />
+                                <input type="email" className="form-control" onChange={onEmailChange}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="message">Message</label>
-                                <textarea id="msg" rows="7"></textarea>
+                                <textarea id="msg" rows="7" onChange={onMessageChange}></textarea>
                             </div>
-                            <button type="submit" className="btn btn-primary">Submit</button>
+                            <button type="submit" className="btn btn-primary" onSubmit={handleSubmit}>Submit</button>
                         </fieldset>
                     </form>
                 </div>

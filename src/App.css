@@ -45,7 +45,7 @@ table {
 /* start here below */
 
 body{
-	background: #d5e8f5;
+	background: white;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -71,13 +71,20 @@ body{
 	align-items: center;
 }
 
-#introd{
+#introd, #portf{
 	font-size: 2rem;
 	text-align: left;
 }
 
-#sec-one{
+section{
+	width: 100%;
+	margin: 0 1rem;
+	
+}
+
+section:nth-child(even){
 	background-color: rgb(220, 243, 243);
+	
 }
 
 #north{

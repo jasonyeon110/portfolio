@@ -3,6 +3,7 @@ import About from './About';
 import Nav from './Nav';
 import Contact from './Contact';
 import { useState } from 'react';
+import Portfolio from './Portfolio';
 function App() {
 
   const [show, setShow] = useState(false);
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Nav setShow={setShow} show={show} />
       <About />
+      <Portfolio/>
       {show && <Contact />}
     </div>
   );
