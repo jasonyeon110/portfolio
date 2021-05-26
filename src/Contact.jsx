@@ -32,23 +32,6 @@ export default function Contact() {
 
 
     return (
-<<<<<<< HEAD
-        <form id="contact-form" action="POST" >
-            <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input type="text" className="form-control" onChange={onNameChange} />
-            </div>
-            <div className="form-group">
-                <label htmlFor="emailInput">Email Address</label>
-                <input type="email" className="form-control" onChange={onEmailChange} />
-            </div>
-            <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="msg" rows="7" onChange={onMessageChange}></textarea>
-            </div>
-            <button type="submit" className="btn btn-primary" onSubmit={handleSubmit}>Submit</button>
-        </form>
-=======
         <div className="bg">
             <div className="col-md-6">
                 <div className="well well-sm">
@@ -74,7 +57,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
->>>>>>> 3313dac33682526dd5761d622bea8d60332c20e7
     )
 
 }
