@@ -32,6 +32,7 @@ export default function Contact() {
 
 
     return (
+<<<<<<< HEAD
         <form id="contact-form" action="POST" >
             <div className="form-group">
                 <label htmlFor="name">Name</label>
@@ -47,6 +48,33 @@ export default function Contact() {
             </div>
             <button type="submit" className="btn btn-primary" onSubmit={handleSubmit}>Submit</button>
         </form>
+=======
+        <div className="bg">
+            <div className="col-md-6">
+                <div className="well well-sm">
+
+                    <form id="contact-form" action="POST">
+                        <fieldset>
+                            <legend className="text-center">Contact</legend>
+                            <div className="form-group">
+                                <label htmlFor="name" className="col-md-3 control-label">Name</label>
+                                <input type="text" className="form-control" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="emailInput">Email Address</label>
+                                <input type="email" className="form-control" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="message">Message</label>
+                                <textarea id="msg" rows="7"></textarea>
+                            </div>
+                            <button type="submit" className="btn btn-primary">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+>>>>>>> 3313dac33682526dd5761d622bea8d60332c20e7
     )
 
 }
