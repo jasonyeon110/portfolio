@@ -11,6 +11,7 @@ export default function Intro() {
                     <img src={north} alt="" id="north" />
                 </div>
             </div>
+
         </section>
     )
 }

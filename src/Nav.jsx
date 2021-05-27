@@ -23,10 +23,10 @@ export default function Nav({ show, setShow }) {
                         <a href="#introd" className="nav-link">About</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#introd" className="nav-link">Portfolio</a>
+                        <a href="#portf" className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#introd" className="nav-link" onClick={showContact}>Contact me</a>
+                        <a href="#contact-form" className="nav-link" onClick={showContact}>Contact me</a>
                     </li>
                 </ul>
             </div>

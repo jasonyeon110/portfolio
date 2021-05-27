@@ -12,8 +12,9 @@ function App() {
     <div className="App">
       <Nav setShow={setShow} show={show} />
       <About />
-      <Portfolio/>
-      {show && <Contact />}
+      <Portfolio />
+      {/* {show && <Contact />} */}
+      <Contact />
     </div>
   );
 }
