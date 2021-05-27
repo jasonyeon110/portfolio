@@ -159,9 +159,15 @@ legend{
 
 /* -------about----------- */
 #sec-one{
-
+	height: 400px;
 }
 
 #ocean{
 	width: 100%;
+}
+
+
+/* ----------portfolio--------- */
+#portf-container{
+	height: 600px;
 }
