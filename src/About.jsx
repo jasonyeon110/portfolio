@@ -1,19 +1,18 @@
 import React from 'react';
 import north from './images/north-logo.png';
-import ocean from './images/IMG_5199.JPG';
 
 export default function About() {
     return (
-        <section className="container-fluid px-0 py-3" id="sec-one">
-            <img src={ocean} alt="ocean picture" id="ocean" />
-            <div className="container">
-                <div id="introd" className="col align-item-center">
-                    {/* <h1 className="intro text-uppercase">About</h1> */}
-                    <p>I am currectly studying Master Degree - Information Systems at Northeastern University</p>
-                    <img src={north} alt="" id="north" />
-                </div>
+        <section id="sec-one" className="about-section">
+            <img src={north} className="img-fluid" id="north" />
+            <h1 id="h">Hello, I am Ji Woong, <sub> go by Jason</sub>, a Software Engineering Student.</h1>
+            <p>Witness my Journey to become a <span> Frontend</span> engineer</p>
+            <div id="sub-container">
+                <div id="sub1">Systme.out.println("Hello World")</div>
+                <div id="sub2">console.log('Hello World) </div>
+                <div id="sub3">print('Hello World')</div>
             </div>
-
         </section>
     )
 }
+

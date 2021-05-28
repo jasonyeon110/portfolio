@@ -15,8 +15,8 @@ function App() {
       <Nav setShow={setShow} show={show} />
       <About />
       <Portfolio />
-      {/* {show && <Contact />} */}
-      <Contact />
+      {show && <Contact />}
+      {/* <Contact /> */}
     </div>
   );
 }
