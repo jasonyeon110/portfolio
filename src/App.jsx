@@ -1,9 +1,11 @@
 import './App.css';
-import About from './About';
+import Intro from './Intro';
 import Nav from './Nav';
 import Contact from './Contact';
 import { useState } from 'react';
 import Portfolio from './Portfolio';
+import About from './About';
+import Skills from './Skills';
 
 
 function App() {
@@ -13,10 +15,12 @@ function App() {
   return (
     <div className="App">
       <Nav setShow={setShow} show={show} />
+      <Intro />
       <About />
-      <Portfolio />
+      <Skills />
+      {/* <Portfolio /> */}
       {show && <Contact />}
-      {/* <Contact /> */}
+
     </div>
   );
 }

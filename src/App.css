@@ -4,10 +4,14 @@
 	margin: 0;
 }
 
+ul, li{
+	list-style: none;
+}
+
 /* start here below */
 
 body{
-	background-color: #bde6ff;
+	background-color: white;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
 	font-weight: 300;
@@ -54,6 +58,18 @@ body{
 #mainNavbar .nav-link:hover{
 	font-weight: 400;
 }
+
+#nav-mid{
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding: 0 8px;
+}
+
+#nav-port{
+	border-right: 2px solid white;
+	padding: 0 8px;
+}
+
 
 .navbar-nav{
 	display: flex;
@@ -117,16 +133,29 @@ legend{
 	margin: 1rem 0;
 }
 
-/* -------about----------- */
+/* -------Intro----------- */
+#home{
+	/* background: url("https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	 opacity: 0.5;
+	background-color: rgba(4,14,22,.83); */
+}
+
 #sec-one{
-	margin-top: 80px;
-	padding: 3rem 3rem;
+	margin-top: 30px;
+	padding: 1rem;
 	text-align: center;
-	height: 90vh;
+	height: fit-content;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	/* border-bottom: 1px black solid; */
+}
+
+#introduction{
+	margin-top: 30px;
 }
 
 #sec-one h1{
@@ -146,9 +175,10 @@ legend{
 }
 
 #north{
-	max-width: 20%;
-	position: relative;
-	bottom: 100px;
+	max-width: 15%;
+	min-width: 250px;
+	/* position: relative;
+	bottom: 100px; */
 }
 
 #sub-container{
@@ -167,4 +197,107 @@ legend{
 	font-size: 1rem;
 }
 
-/* -------------portfolio----------- */
+/* -------------About----------- */
+#sec-two{
+	background: url('./images/seattle2.jpg');
+	background-size: cover;
+	background-position: top;
+	height: 550px;	
+	/* margin-top: 30px; */
+	/* margin-bottom: 30px; */
+	padding: auto;
+}
+
+#selfie-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#selfie{
+	width: 300px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+#about-h1{
+	font-size: 30px;
+	font-weight: bold;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	position: relative;
+	bottom: 130px;
+}
+
+.underLine{
+	text-decoration: underline;
+}
+
+#about-p{
+	font-weight: 500;
+	/* color: rgb(255, 255, 255); */
+}
+
+/*-------------- skills --------------*/
+#sec-three{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+}
+
+.overlay {
+	background-color: rgba(28, 40, 49, 0.83);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#program-image{
+	background: url('./images/programskill.jpg') no-repeat center;
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+	/* margin-right: 5px; */
+}
+
+#soft-image{
+	background: url('./images/soft2.jpg') no-repeat center;
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+	/* margin-left: 5px; */
+}
+
+.lists-container{
+	padding: 10px 0;
+	color: white;
+}
+
+
+.skill-list{
+	margin: 0;
+}
+
+.skill-logo{
+	width: 50px;
+	margin-right: 10px;
+}
+
+.skilz{
+	text-decoration: underline black;
+}
+
+ul{
+	/* background-color: rgba(4,14,22,.83); */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/* justify-content: center; */
+}
+
+ul li{
+	padding: 5px 0;
+}
