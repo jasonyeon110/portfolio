@@ -9,9 +9,7 @@ import critical from './images/critical.png';
 export default function Skills() {
     return (
         <section className="container-fluid" id="sec-three">
-
             <div className="row h-100">
-                {/* <div className="col"></div> */}
                 <div className="col-lg" id="program-image">
                     <div className="overlay">
                         <div className="lists-container">
