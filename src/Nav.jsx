@@ -12,8 +12,7 @@ export default function Nav({ show, setShow }) {
 
     return (
         <nav id="mainNavbar" className="navbar navbar-dark bg-dark navbar-expand-md py-0 ">
-            <a href=".App" className="navbar-brand">YEON, JASON JIWOONG</a>
-            {/* href should be this url = >https://jasonyeon110.github.io/portfolio/ */}
+            <a href="https://jasonyeon110.github.io/portfolio/" className="navbar-brand">YEON, JASON JIWOONG</a>
             <button className="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

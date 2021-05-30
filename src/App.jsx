@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Portfolio from './Portfolio';
 import About from './About';
 import Skills from './Skills';
+import Footer from './Footer';
 
 
 function App() {
@@ -14,13 +15,16 @@ function App() {
 
   return (
     <div className="App">
-      <Nav setShow={setShow} show={show} />
-      <Intro />
-      <About />
-      <Skills />
-      {/* <Portfolio /> */}
-      {show && <Contact />}
+      <div >
+        <Nav setShow={setShow} show={show} />
+        <Intro />
+        <About />
+        <Skills />
+        <Portfolio />
+        {show && <Contact />}
 
+      </div>
+      <Footer />
     </div>
   );
 }
