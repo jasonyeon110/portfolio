@@ -1,4 +1,6 @@
 # Jason Ji Woong Yeon Portfolio
 ## React based personal website
 
-### on Progress,,, ETA early June 2021
+### https://jasonyeon110.github.io/portfolio/
+
+I will constantly update this website...
