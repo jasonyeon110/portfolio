@@ -12,6 +12,7 @@ export default function About() {
                         <h2 id="about-h1">I am a <strong> science/tech nerd </strong>who is currently working <br /> as a Research scientist at a biotech company. <br />
                         But preparing to become a
                         <strong className="underLine"> <br /> Software Engineer. </strong></h2>
+                        {/* quout - "working at biotech, learned soft skills" */}
                     </div>
                 </div>
                 <div className="col-lg-4" id="selfie-container">
