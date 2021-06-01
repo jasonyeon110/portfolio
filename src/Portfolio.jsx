@@ -8,7 +8,7 @@ export default function Portfolio() {
                 <div className="">
                     <h2>My Recent Projects</h2>
                     <h3>Coming soon...</h3>
-                    <a href="">click me</a>
+                    {/* <a href="">click me</a> */}
                 </div>
             </div>
         </section>

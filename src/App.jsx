@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <span id="top"></span>
       <div >
         <Nav setShow={setShow} show={show} />
         <Intro />
@@ -24,6 +25,7 @@ function App() {
         {show && <Contact />}
 
       </div>
+      <a href="#top" id="to-top" >Top</a>
       <Footer />
     </div>
   );

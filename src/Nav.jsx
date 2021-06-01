@@ -25,7 +25,7 @@ export default function Nav({ show, setShow }) {
                         <a href="#sec-three" className="nav-link" id="nav-mid">Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a href="" className="nav-link" id="nav-port">Portfolio</a>
+                        <a href="#sec-four" className="nav-link" id="nav-port">Portfolio</a>
                     </li>
                     <li className="nav-item">
                         <a href="#contact-form" className="nav-link" onClick={showContact}>Contact</a>

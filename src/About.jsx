@@ -16,7 +16,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-lg-4" id="selfie-container">
-                    <img className="img-fluid" src={selfie} alt="selfie picture" id="selfie" />
+                    <img className="img-fluid" src={selfie} alt="selfie" id="selfie" />
                 </div>
             </div>
         </section>
