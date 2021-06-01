@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8573acdb.chunk.css",
-    "main.js": "/portfolio/static/js/main.902b5ce8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.902b5ce8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.075b8327.chunk.css",
+    "main.js": "/portfolio/static/js/main.38c7a546.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.38c7a546.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7d83b282.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7d83b282.js.map",
     "static/js/2.afdc5195.chunk.js": "/portfolio/static/js/2.afdc5195.chunk.js",
@@ -10,22 +10,23 @@
     "static/js/3.aeb9833f.chunk.js": "/portfolio/static/js/3.aeb9833f.chunk.js",
     "static/js/3.aeb9833f.chunk.js.map": "/portfolio/static/js/3.aeb9833f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.8573acdb.chunk.css.map": "/portfolio/static/css/main.8573acdb.chunk.css.map",
+    "static/css/main.075b8327.chunk.css.map": "/portfolio/static/css/main.075b8327.chunk.css.map",
     "static/js/2.afdc5195.chunk.js.LICENSE.txt": "/portfolio/static/js/2.afdc5195.chunk.js.LICENSE.txt",
     "static/media/IMG_1692.1d0cda26.JPG": "/portfolio/static/media/IMG_1692.1d0cda26.JPG",
     "static/media/communication.4f6331c5.png": "/portfolio/static/media/communication.4f6331c5.png",
     "static/media/critical.35cad86f.png": "/portfolio/static/media/critical.35cad86f.png",
+    "static/media/App.css": "/portfolio/static/media/soft2.efd42676.jpg",
+    "static/media/github.d2fcbbd5.png": "/portfolio/static/media/github.d2fcbbd5.png",
     "static/media/java.ca4d72c2.png": "/portfolio/static/media/java.ca4d72c2.png",
     "static/media/javascript.3d09f2e4.png": "/portfolio/static/media/javascript.3d09f2e4.png",
     "static/media/leader.688c8c2b.png": "/portfolio/static/media/leader.688c8c2b.png",
-    "static/media/nodejs.457fee1e.png": "/portfolio/static/media/nodejs.457fee1e.png",
-    "static/media/north-logo.c2eb91a6.png": "/portfolio/static/media/north-logo.c2eb91a6.png",
-    "static/media/App.css": "/portfolio/static/media/soft2.efd42676.jpg"
+    "static/media/linkedin.c0f0b2f9.png": "/portfolio/static/media/linkedin.c0f0b2f9.png",
+    "static/media/nodejs.457fee1e.png": "/portfolio/static/media/nodejs.457fee1e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7d83b282.js",
     "static/js/2.afdc5195.chunk.js",
-    "static/css/main.8573acdb.chunk.css",
-    "static/js/main.902b5ce8.chunk.js"
+    "static/css/main.075b8327.chunk.css",
+    "static/js/main.38c7a546.chunk.js"
   ]
 }
