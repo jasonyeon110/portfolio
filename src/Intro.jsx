@@ -11,9 +11,9 @@ export default function Intro() {
                         {/* 윗트잇게 */}
                     </div>
                     <div id="sub-container">
-                        <div id="sub1">Systme.out.println("Jason Yeon")</div>
-                        <div id="sub2">console.log('') </div>
-                        <div id="sub3">print('Frontend')</div>
+                        <div id="sub1">Systme.out.println("Jason Ji Woong Yeon")</div>
+                        <div id="sub2">console.log('Looking for') </div>
+                        <div id="sub3">print('Experience!    internship')</div>
                     </div>
                 </div>
             </div>

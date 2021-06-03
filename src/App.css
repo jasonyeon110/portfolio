@@ -82,6 +82,11 @@ body{
 	align-items: center;
 }
 
+#logo:hover{
+	transform: rotate(30deg);
+	
+}
+
 
 /* -------------contact---------- */
 .bg{
