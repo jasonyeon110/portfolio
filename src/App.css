@@ -340,6 +340,26 @@ ul li{
 	text-align: center;
 }
 
+/* -------------portfolio ------------------*/
+
+#projex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	overflow: auto;
+	/* align-content: space-between; */
+}
+
+.projex{
+	border:  1px solid black;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
 /* --------------footer---------------- */
 .footer{
 	position: absolute;

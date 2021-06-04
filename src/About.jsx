@@ -5,7 +5,6 @@ export default function About() {
     return (
         <section className="container-fluid" id="sec-two">
             <div className="row align-items-center h-100">
-
                 <div className="col-lg-1"></div>
                 <div className="col-lg-7">
                     <div id="headingGroup" className="text-center d-lg-block mt-5">
