@@ -386,3 +386,7 @@ ul li{
 #yeonj{
 	margin: 0 1.8rem;
 }
+
+@media only screen and (max-width: 750px){
+
+}
