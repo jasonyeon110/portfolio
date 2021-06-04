@@ -25,7 +25,7 @@ function App() {
         {show && <Contact />}
 
       </div>
-      <a href="#top" id="to-top" >Top</a>
+      {/* <a href="#top" id="to-top" >Top</a> */}
       <Footer />
     </div>
   );

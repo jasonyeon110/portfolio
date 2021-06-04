@@ -1,5 +1,5 @@
 import React from 'react';
-// import foodiar from './foodiary/build/index.html';
+import notFound from './images/204.jpg'
 
 export default function Portfolio() {
     return (
@@ -7,10 +7,12 @@ export default function Portfolio() {
             <div className="row align-items-center text-center h-100">
                 <h2>My Recent Projects</h2>
                 <div className="container" id="projex-container">
-                    <div className="projex">1</div>
+                    <div>Coming Soon...</div>
+                    {/* <div className="projex">1</div>
                     <div className="projex">2</div>
                     <div className="projex">3</div>
-                    <div className="projex">4</div>
+                    <div className="projex">4</div> */}
+                    <img src={notFound} alt="no content image" id="cat-no-content" />
                 </div>
             </div>
         </section>

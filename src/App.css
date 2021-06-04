@@ -326,6 +326,8 @@ ul li{
 	padding: 5px 0;
 }
 
+/* -------------portfolio ------------------*/
+
 #sec-four{
 	display: flex;
 	flex-direction: column;
@@ -333,30 +335,32 @@ ul li{
 	height: 400px;
 	/* border: 5px solid black;
 	border-radius: 10%; */
-	width: fit-content;
+	width: 100%;
 }
 
 #sec-four h3{
 	text-align: center;
 }
 
-/* -------------portfolio ------------------*/
-
 #projex-container{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	overflow: auto;
+	/* display: flex; */
+	/* flex-direction: row;
+	justify-content: center;
+	overflow: auto; */
 	/* align-content: space-between; */
 }
 
 .projex{
 	border:  1px solid black;
-	width: 300px;
-	height: 200px;
+	width: 20%;
+	height: 20%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;	
+}
+
+#cat-no-content{
+	width: 300px;
 	
 }
 
