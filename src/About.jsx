@@ -12,7 +12,8 @@ export default function About() {
                         But preparing to become a
                         <strong className="underLine"> <br /> Software Engineer. </strong>"</h2> */}
                         <h2 id="about-h1">"Science/Tech nerd, currently working for a fast paced biotech Industry
-                        but also passionate Software Engineering student with equiped with tons of Soft skills"</h2>
+                        but also passionate Software Engineering student, who is equiped with tons of <a href="#soft-image" id="pro-soft">programming & Soft skills</a> "</h2>
+                        <h3 id="quote-jy">- Jason -</h3>
                         {/* quout - "working at biotech, learned soft skills" */}
                     </div>
                 </div>

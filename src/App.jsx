@@ -1,7 +1,6 @@
 import './App.css';
 import Intro from './Intro';
 import Nav from './Nav';
-import Contact from './Contact';
 import { useState } from 'react';
 import Portfolio from './Portfolio';
 import About from './About';
@@ -22,10 +21,7 @@ function App() {
         <About />
         <Skills />
         <Portfolio />
-        {show && <Contact />}
-
       </div>
-      {/* <a href="#top" id="to-top" >Top</a> */}
       <Footer />
     </div>
   );

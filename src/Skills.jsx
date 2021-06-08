@@ -18,7 +18,7 @@ export default function Skills() {
                                 <li>
                                     <img src={js} alt="Javascript Logo" className="skill-logo" />
                                     <label htmlFor="Javascript">Javascript</label>
-                                    {/* <progress id="javascript" value="30" max="100" /> */}
+
                                 </li>
                                 <li>
                                     <img src={java} alt="Java Logo" className="skill-logo" />
@@ -53,7 +53,6 @@ export default function Skills() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="col"></div> */}
             </div>
 
         </section>

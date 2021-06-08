@@ -28,7 +28,8 @@ export default function Nav({ show, setShow }) {
                         <a href="#sec-four" className="nav-link" id="nav-port">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact-form" className="nav-link" onClick={showContact}>Contact</a>
+                        {/* <a href="#contact-form" className="nav-link" onClick={showContact}>Contact</a> */}
+                        <a href="mailto: jasonyeon110@gmail.com" className="nav-link" >Contact</a>
                     </li>
                 </ul>
             </div>
