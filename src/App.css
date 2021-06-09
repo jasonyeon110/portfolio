@@ -413,7 +413,7 @@ ul li{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 400px;
+	height: 430px;
 	/* border: 5px solid black;
 	border-radius: 10%; */
 	width: 100%;
@@ -424,6 +424,7 @@ ul li{
 }
 
 #projex-container{
+	height: 20vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -434,7 +435,7 @@ ul li{
 .projex{
 	border:  1px solid black;
 	width: 20%;
-	height: 20%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;	
@@ -442,13 +443,27 @@ ul li{
 
 #cat-no-content{
 	width: 300px;
-	
+}
+
+#map-clone{
+	background-image: url(/src/images/mapImage.PNG);
+	background-position: center; 
+	background-size: 100%;
+	transition: background-size 1s ease-out;
+}
+
+#map-clone:hover{
+	background-size: 200%;
+}
+
+#google-map{
+	color: black;
+	font-weight: 550;
 }
 
 /* --------------footer---------------- */
 .footer{
 	position: absolute;
-	/* bottom: 0; */
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
