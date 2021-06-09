@@ -227,7 +227,7 @@ legend{
 }
 
 #typing{
-	width: 40ch;
+	width: 37ch;
 	animation: typing 4s steps(22), blink .5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
@@ -424,11 +424,11 @@ ul li{
 }
 
 #projex-container{
-	/* display: flex; */
-	/* flex-direction: row;
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	overflow: auto; */
-	/* align-content: space-between; */
+	overflow: auto;
+	align-content: space-between;
 }
 
 .projex{

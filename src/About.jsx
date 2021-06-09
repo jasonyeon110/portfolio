@@ -11,8 +11,8 @@ export default function About() {
                         {/* <h2 id="about-h1">"I am a <strong> science/tech nerd </strong>who is currently working <br /> as a Research scientist at a biotech company. <br />
                         But preparing to become a
                         <strong className="underLine"> <br /> Software Engineer. </strong>"</h2> */}
-                        <h2 id="about-h1">"Science/Tech nerd, currently working for a fast paced biotech Industry
-                        but also passionate Software Engineering student, who is equiped with tons of <a href="#soft-image" id="pro-soft">programming & Soft skills</a> "</h2>
+                        <h2 id="about-h1">"Science/Tech nerd, currently working for a fast paced biotech company
+                        and also a passionate Software Engineering student equipped with practical <a href="#soft-image" id="pro-soft">programming & Soft skills</a> "</h2>
                         <h3 id="quote-jy">- Jason -</h3>
                         {/* quout - "working at biotech, learned soft skills" */}
                     </div>
